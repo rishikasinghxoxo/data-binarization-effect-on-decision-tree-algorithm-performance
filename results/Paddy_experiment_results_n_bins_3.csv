@@ -1,0 +1,8 @@
+Model,Accuracy,F1,F1 Std Dev,Precision,Recall,Tree Leaves,Tree Depth,Fit Time (s),Fit Time Std Dev
+Greedy (Continuous),0.9985,0.9985,0.0031,0.9987,0.9984,12,9,0.0106,0.0026
+Greedy (Uniform),0.7525,0.7461,0.0265,0.7718,0.7513,23,8,0.0155,0.0051
+Optimal (STreeD Uniform),0.7525,0.7461,0.0265,0.7718,0.7513,6,4,0.1053,0.0681
+Greedy (Quantile),0.6699,0.6685,0.0129,0.7161,0.674,28,8,0.0147,0.0021
+Optimal (STreeD Quantile),0.6718,0.6704,0.0154,0.6793,0.6765,8,4,0.0922,0.0076
+Greedy (KMeans),0.7525,0.7461,0.0265,0.7718,0.7513,20,7,0.0023,0.0172
+Optimal (STreeD KMeans),0.7525,0.7461,0.0265,0.7718,0.7513,6,4,0.1117,0.0081
